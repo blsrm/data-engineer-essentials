@@ -1,6 +1,20 @@
 ## Full Mind Map - Data Engineering
 
 ```
+                         DATA ENGINEERING
+                                |
+   ------------------------------------------------------------------
+   |                |                |               |               |
+BIG DATA        SPARK           DATABRICKS      CLOUD PLATFORMS   INGESTION
+   |                |                |               |               |
+Hadoop           Core Engine      Workspace       AWS / Azure / GCP Batch / Stream
+HDFS             RDD / DF         DBFS            EMR / ADF / DP   Sqoop / Kafka
+MapReduce        SQL / MLlib      Delta Lake      BigQuery / S3    CDC / ETL / ELT
+Cloudera         Streaming        Auto Loader     Synapse / Glue   Incremental Loads
+
+```
+
+```
 DATA ENGINEERING
 │
 ├── BIG DATA FOUNDATIONS
