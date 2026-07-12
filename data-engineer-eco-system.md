@@ -1,3 +1,96 @@
+## Full Mind Map - Data Engineering
+
+```
+DATA ENGINEERING
+│
+├── BIG DATA FOUNDATIONS
+│   ├── Hadoop
+│   │   ├── HDFS (Storage)
+│   │   ├── MapReduce (Processing)
+│   │   └── YARN (Resource Manager)
+│   ├── Cloudera (Enterprise Hadoop)
+│   └── Concepts
+│       ├── Distributed Storage
+│       ├── Distributed Compute
+│       └── Fault Tolerance
+│
+├── FILE FORMATS
+│   ├── Parquet (Columnar)
+│   ├── ORC
+│   ├── Avro
+│   └── JSON/CSV
+│
+├── DATA INGESTION
+│   ├── Batch
+│   │   ├── Sqoop
+│   │   ├── ETL
+│   │   └── ELT
+│   ├── Streaming
+│   │   ├── Kafka
+│   │   ├── Kinesis
+│   │   └── Pub/Sub
+│   └── CDC (Change Data Capture)
+│
+├── CLOUD BIG DATA SERVICES
+│   ├── AWS
+│   │   ├── EMR
+│   │   ├── Glue
+│   │   ├── S3
+│   │   └── Redshift
+│   ├── Azure
+│   │   ├── ADLS
+│   │   ├── ADF
+│   │   ├── Synapse
+│   │   └── Azure Databricks
+│   └── GCP
+│       ├── DataProc
+│       ├── DataFlow
+│       ├── BigQuery
+│       └── GCS
+│
+├── SPARK ECOSYSTEM
+│   ├── Apache Spark
+│   │   ├── RDD
+│   │   ├── DataFrame
+│   │   ├── SQL
+│   │   ├── Streaming
+│   │   └── MLlib
+│   ├── PySpark
+│   ├── Spark Cluster
+│   │   ├── Master Node
+│   │   └── Worker Nodes
+│   └── Serialization
+│
+├── DATABRICKS PLATFORM
+│   ├── Workspace
+│   │   ├── Notebooks
+│   │   ├── Repos
+│   │   └── DBFS
+│   ├── Delta Lake
+│   │   ├── Delta Tables
+│   │   ├── ACID
+│   │   ├── Time Travel
+│   │   └── Auto Loader
+│   ├── Jobs & Workflows
+│   └── MLflow
+│
+├── DATA WAREHOUSING
+│   ├── SQL Warehouse
+│   ├── Star Schema
+│   ├── Snowflake Schema
+│   ├── Fact Tables
+│   └── Dimension Tables
+│
+└── DATA ENGINEER TOOLKIT
+    ├── Git
+    ├── Docker
+    ├── Airflow
+    ├── Terraform
+    ├── Power BI / Tableau
+    └── Python (Pandas, NumPy)
+
+```
+
 ## Core Big Data Concepts
 ### Big Data
 Large amounts of data that cannot be processed on one computer. Needs distributed systems.
